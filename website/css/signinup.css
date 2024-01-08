@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(38, 42, 46);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+h2 {
+    font-family: "Sacramento", cursive;
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.fields {
+    max-width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+  
+form label {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.35rem;
+    color: #fff;
+    margin-bottom: 12px;
+}
+  
+form input {
+    border: 3px solid #17b478;
+    height: 25px;
+    width: 95%;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+a {
+    font-size: 1rem;
+    color: #17b478;;
+}
+  
+.button {
+    position: static;
+    background-color:#17b478;
+    color: #fff;
+    border:none;
+    border-radius:5px;
+    padding:8px;
+    min-height:30px; 
+    min-width: 80px;
+    font-size: 1rem;
+}
+
+.card {
+    background: rgb(38, 42, 46);
+    padding: 40px 40px;
+    border: 3px solid #17b478;
+    border-radius: 10px;
+}
+
+.points {
+    display: flex;
+    flex-direction: row;
+}
